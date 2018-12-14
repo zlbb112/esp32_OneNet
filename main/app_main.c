@@ -320,9 +320,9 @@ static void uart2_tx_task()
   //      sendDataMoto(ECHO_UART2_PORT,moto_move,1,2048,9);
   //      vTaskDelay(2000 / portTICK_PERIOD_MS);
   //      sendDataMoto(ECHO_UART2_PORT,moto_move,1,3554,9);
-        INFO("[APP] send_Data %d\n",free_signal[0]);
-        vTaskDelay(2000 / portTICK_PERIOD_MS);
-        vTaskDelay(2000 / portTICK_PERIOD_MS);
+  //      INFO("[APP] send_Data %d\n",free_signal[0]);
+  //      vTaskDelay(2000 / portTICK_PERIOD_MS);
+   //     vTaskDelay(2000 / portTICK_PERIOD_MS);
         }
         else if(free_signal[0]==0)
         {
